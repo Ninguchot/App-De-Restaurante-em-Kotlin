@@ -29,6 +29,5 @@ class FoodAdapter(private  val context: Context, private val foodList: MutableLi
         val txtFoodDescription = bindind.txtFoodDescription
         val txtPrice = bindind.txtPrice
 
-
     }
 }
