@@ -5,8 +5,7 @@ import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.appderestaurante_kotlin.adapter.FoodAdapter
 import com.example.appderestaurante_kotlin.databinding.ActivityMainBinding
-import com.example.appderestaurante_kotlin.databinding.FoodItemBinding
-import com.example.appderestaurante_kotlin.motel.Food
+import com.example.appderestaurante_kotlin.model.Food
 
 class MainActivity : AppCompatActivity() {
 

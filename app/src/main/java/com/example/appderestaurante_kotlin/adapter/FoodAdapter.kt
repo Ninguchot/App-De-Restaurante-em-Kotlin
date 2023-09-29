@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.appderestaurante_kotlin.databinding.FoodItemBinding
-import com.example.appderestaurante_kotlin.motel.Food
+import com.example.appderestaurante_kotlin.model.Food
 
 class FoodAdapter(private  val context: Context, private val foodList: MutableList<Food>):
     RecyclerView.Adapter<FoodAdapter.FoodViewHolder>() {
